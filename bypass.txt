@@ -30,7 +30,6 @@ MemoryPatch::createWithHex("libUE4.so", 0x3514D6C, "1F 20 03 D5 C0 03 5F D6").Mo
 MemoryPatch::createWithHex("libUE4.so", 0x3514DDC, "1F 20 03 D5 C0 03 5F D6").Modify();
 MemoryPatch::createWithHex("libUE4.so", 0x3523568, "1F 20 03 D5 C0 03 5F D6").Modify();
 MemoryPatch::createWithHex("libUE4.so", 0x3523FB8, "1F 20 03 D5 C0 03 5F D6").Modify();
-MemoryPatch::createWithHex("libUE4.so", 0x242248C, "1F 20 03 D5 C0 03 5F D6").Modify();
 MemoryPatch::createWithHex("libUE4.so", 0x3189AEC, "1F 20 03 D5 C0 03 5F D6").Modify();
 MemoryPatch::createWithHex("libUE4.so", 0x35354FC, "1F 20 03 D5 C0 03 5F D6").Modify();
 MemoryPatch::createWithHex("libUE4.so", 0x3543FEC, "1F 20 03 D5 C0 03 5F D6").Modify();
